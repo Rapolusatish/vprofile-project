@@ -14,7 +14,7 @@ pipeline {
                 // Your build steps go here
                 script {
                     // Example: Run a Maven build
-                    sh 'mvn clean install'
+                    sh 'mvn install'
                 }
             }
         }
